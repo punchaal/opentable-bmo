@@ -31,6 +31,7 @@ function FilterDropDown(props) {
           id='filter'
           defaultValue={value}
           onChange={(e) => onChangeSelect(e.target.value)}
+          aria-label='Select filter by attribute'
         >
           <option value='name'>Name</option>
           <option value='address'>Address</option>
@@ -43,6 +44,7 @@ function FilterDropDown(props) {
           name={query}
           onChange={(e) => onChange(e)}
           className='filter-term'
+          aria-label='Refine results which include give keyword'
         />
       </div>
     </div>

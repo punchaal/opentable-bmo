@@ -55,12 +55,14 @@ function SearchBar(props) {
           <div className='wrap'>
             <div className='search'>
               <input
+                id='searchbycity'
                 type='text'
                 placeholder='Search by city name...'
                 value={city}
                 name={city}
                 onChange={(e) => onChange(e)}
                 className='search-term'
+                aria-label='Search Restaurants By City'
               />
               <button
                 type='submit'
