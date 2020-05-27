@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component renders the UI as expected 1`] = `
+Array [
+  <ul
+    aria-live="polite"
+    className="grid-container"
+    id="restaurant-results"
+  />,
+  " ",
+]
+`;
